@@ -3,8 +3,8 @@ $('.card1').on('click', function () {
 
     $('#column-right').empty()
 
-if (agency === 'ccrb') {
-    $('#column-right').css('background-image', 'url(https://thebronxfreepress.com/wp-content/uploads/2014/07/Untitled-2.jpg")')
+if (agency === 'oig') {
+    $('#column-right').css('background-image', 'url("https://pbs.twimg.com/profile_images/1725253737063559168/0PrbVNBU_400x400.jpg")')
 }
 })
 
@@ -13,8 +13,8 @@ $('.card3').on('click', function () {
 
     $('#column-right').empty()
    
-    if (agency === 'oig') {
-    $('#column-right').css('background-image', 'url("https://pbs.twimg.com/profile_images/1725253737063559168/0PrbVNBU_400x400.jpg")')
+    if (agency === 'ccrb') {
+    $('#column-right').css('background-image', 'url("https://pbs.twimg.com/profile_images/1676990760464293889/JDWuKNna_400x400.jpg")')
 }
 })
 
@@ -24,7 +24,7 @@ $('.card2').on('click', function () {
 
     $('#column-right').empty()
    
-    if (agency === 'Monitor') {
+    if (agency === 'monitor') {
     $('#column-right').css('background-image', 'url("https://www.nypdmonitor.org/wp-content/uploads/2022/09/Logo-2@2x-300x133.jpg")')
 }
 })
