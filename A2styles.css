@@ -1,0 +1,66 @@
+* {
+  font-family: sans-serif
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.card1 {
+  border: 1px solid #000000;
+  background-color: #f5cf14;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.card1:hover {
+  background-color: #9fc98d;
+  cursor: pointer;
+}
+
+.card2 {
+  border: 1px solid #000000;
+  background-color: #f514db;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.card2:hover {
+  background-color: #9fc98d;
+  cursor: pointer;
+}
+
+.card3 {
+  border: 1px solid #000000;
+  background-color: #4287f5;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.card3:hover {
+  background-color: #9fc98d;
+  cursor: pointer;
+}
+
+.column {
+  flex: 50%;
+  margin: 20px;
+}
+
+.artist-name {
+  font-size: 10px;
+}
+
+#column-right {
+  background-color: white;
+  background-size: cover;
+  text-align: center;
+  padding-top: 55px;
+}
